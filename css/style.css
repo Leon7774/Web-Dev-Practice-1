@@ -13,15 +13,27 @@
 .letter{
   color: white;
   z-index: 50;
-  text-align: left;
-  float: left;
-  display: block;
   position: absolute;
-  top: 80px; left: 80px;
+  top: 30%;
+  background-color: rgba(158, 232, 255, 0.678);
+  width: 500px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 p{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   ;
+  color: rgb(34, 34, 34);
+}
+
+@media (max-width: 600px) {
+  .letter{
+      position: absolute;
+      top: 500px;
+      
+      
+  }
 }
 
 .title {
@@ -61,6 +73,7 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
+  max-height:100px
 }
 
 .flower {
