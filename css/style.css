@@ -10,6 +10,20 @@
   --dark-color: #000;
 }
 
+.letter{
+  color: white;
+  z-index: 50;
+  text-align: left;
+  float: left;
+  display: block;
+  position: absolute;
+  top: 80px; left: 80px;
+}
+
+p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .title {
   position: absolute;
   width: 100%;
